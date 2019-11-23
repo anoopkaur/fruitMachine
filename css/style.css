@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+/* START BUTTON  */
+.game-start {
+  text-align: center;
+}
+
+#start {
+  width: 150px;
+}
+
+/* SCORES AND BALANCE*/
+.details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* FRUIT MACHINE FRUITS */
+.slotImages {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+
+/* RESULTS */
+.results {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: #ddd;
+
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
